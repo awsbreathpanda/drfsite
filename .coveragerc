@@ -1,0 +1,15 @@
+; coverage erase
+; coverage run --rcfile ./.coveragerc.ini manage.py test
+; coverage report
+; coverge html
+[run]
+branch = True
+source = .
+omit = 
+    .venv/*
+    .github/*
+    drfsite/*
+    manage.py
+
+[report]
+show_missing = True
