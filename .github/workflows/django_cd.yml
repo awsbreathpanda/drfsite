@@ -1,7 +1,7 @@
 name: Django CD
 on:
   release:
-    types: [published,edited]
+    types: [published]
   
 jobs:
   build_and_push_image:
